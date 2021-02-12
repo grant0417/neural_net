@@ -1,0 +1,16 @@
+[package]
+name = "neural_net"
+version = "0.1.0"
+authors = ["grant0417 <grant@ggurvis.com>"]
+edition = "2018"
+
+[dependencies]
+# For matrix opertaions
+nalgebra= { version = "0.24", features = ["serde-serialize"] }
+# For random initialization of net
+rand="0.7"
+# To load dataset
+csv = "1.1"
+# To save model
+serde="1.0"
+serde_json = "1.0"
